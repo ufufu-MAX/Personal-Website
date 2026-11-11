@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "build:wall": "esbuild cover-wall-entry.js --bundle --format=esm --target=es2020 --outfile=leibox-covers.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
